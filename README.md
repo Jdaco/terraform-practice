@@ -22,3 +22,6 @@
     - If this is done successfully, you should be able to see the webpage for that service by navigating your browser to the public DNS name / IP address of your service
     - Use [AWS Fargate](https://docs.aws.amazon.com/AmazonECS/latest/userguide/what-is-fargate.html) as your capacity provider for the cluster (it's the easiest)
 3. Make sure all of the logs for that service are going to a [Cloudwatch Log Group](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_log_group)
+
+### Structure
+You can structure your terraform files however you like, but you'll need at least one `main.tf` file
