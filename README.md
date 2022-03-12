@@ -1,6 +1,11 @@
 # Terraform Practice Project
 
 ## Requirements
+
+### Tools
+1. `terraform`
+2. AWS CLI
+
 ### Setup
 1. Create an AWS account to start testing with
 2. Store the [terraform remote state](https://www.terraform.io/language/state/remote) in [s3](https://www.terraform.io/language/settings/backends/s3)
